@@ -1,1 +1,1 @@
-# tps-cours-git
+# TP du cours git
