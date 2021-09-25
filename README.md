@@ -85,3 +85,13 @@ Le résultat suivant devrait s'afficher :
  create mode 100644 index.html
 ```
 
+## Questions
+
+Répondez aux questions suivantes dans votre rapport :
+
+1. Deux commits peuvent-ils avoir le même identifiant \(hash\) ? Si oui, dans quel cas ?
+2. Peut-on ajouter en une seule commande tous les fichiers du répertoire de travail à l'index ? Si oui, comment ?
+3. Peut-on ajouter un fichier à l'index si celui-ci n'est pas dans le répertoire de travail ? Si oui, comment ?
+4. Pensez-vous que certaines entreprises n'ont pas besoin d'utiliser de VCS ? Justifiez votre réponse en donnant quelques exemples. _Ce n'est pas une question piège, la réponse "oui" est admissible tant qu'elle est justifiée_.
+5. Une fois un fichier ajouté à l'index, est-il possible de l'en retirer ? Si oui, par quel moyen ?
+
