@@ -19,7 +19,7 @@ Vous êtes libre d'ajouter à votre rapport les difficultés rencontrées.
 
 Créez un dossier pour accueillir votre projet. Placez-y un fichier `index.html` avec le contenu suivant :
 
-```text
+```markup
 <!DOCTYPE html>
 <html>
 
@@ -42,4 +42,22 @@ Initialized empty Git repository in C:/repositories/mon-site/.git/
 ```
 
 Configurez votre nom et adresse email dans git afin que vos prochains commits soient associés à votre identité. Vous pouvez définir ces paramètres de manière globale à l'aide de l'option `--global`.
+
+{% hint style="info" %}
+Si vous avez déjà configuré votre identité de manière globale, alors vous n'avez pas besoin de le faire à nouveau.
+{% endhint %}
+
+Affichez l'état du dépôt. Le résultat doit être similaire à ceci :
+
+```text
+On branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+        index.html
+
+nothing added to commit but untracked files present (use "git add" to track)
+```
 
