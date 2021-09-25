@@ -15,5 +15,9 @@ Vous aurez besoin pour ce TP de [git et git bash](https://gitforwindows.org/).
 
 Vous êtes libre d'ajouter à votre rapport les difficultés rencontrées.
 
+## Votre premier dépôt
 
+Créez un dossier pour accueillir votre projet. Placez-y le fichier `index.html` décrit ci-dessous :
+
+{% file src=".gitbook/assets/index.html" %}
 
