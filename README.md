@@ -17,7 +17,29 @@ Vous êtes libre d'ajouter à votre rapport les difficultés rencontrées.
 
 ## Votre premier dépôt
 
-Créez un dossier pour accueillir votre projet. Placez-y le fichier `index.html` décrit ci-dessous :
+Créez un dossier pour accueillir votre projet. Placez-y un fichier `index.html` avec le contenu suivant :
 
-{% file src=".gitbook/assets/index.html" %}
+```text
+<!DOCTYPE html>
+<html>
+
+<head>
+	<title>Welcome</title>
+</head>
+
+<body>
+	<h1>This is a Heading</h1>
+	<p>This is a paragraph</p>
+</body>
+
+</html>
+```
+
+Initialisez un dépôt git dans le dossier. Vous devez obtenir un message similaire à ceci :
+
+```text
+Initialized empty Git repository in C:/repositories/mon-site/.git/
+```
+
+Configurez votre nom et adresse email dans git afin que vos prochains commits soient associés à votre identité. Vous pouvez définir ces paramètres de manière globale à l'aide de l'option `--global`.
 
