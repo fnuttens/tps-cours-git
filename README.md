@@ -61,3 +61,27 @@ Untracked files:
 nothing added to commit but untracked files present (use "git add" to track)
 ```
 
+Ajoutez le fichier `index.html` à l'index git. Consultez à nouveau l'état du dépôt. Le résultat doit être similaire à ceci :
+
+```text
+On branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+        new file:   index.html
+```
+
+Enregistrez un nouveau commit à partir des modifications présentes dans l'index. Vous préciserez le message suivant :
+
+> feat: ajoute le fichier index.html
+
+Le résultat suivant devrait s'afficher :
+
+```text
+[master (root-commit) b063607] feat: ajoute le fichier index.html
+ 1 file changed, 13 insertions(+)
+ create mode 100644 index.html
+```
+
