@@ -6,12 +6,12 @@ description: Séance 3 - 25/10/2021
 
 ## Mise en place et instructions
 
-Vous aurez besoin pour ce TP de [git et git bash](https://gitforwindows.org/).
+Vous aurez besoin pour ce TP de [git et git bash](https://gitforwindows.org).
 
-À la fin de la séance, merci de déposer une archive \(ZIP ou équivalent\) à [cette adresse](https://drive.google.com/drive/folders/1T2ixIF9ksS3asvpratUEKxPZIB025Ltj?usp=sharing), au format **NOM\_prénom\_TP03**, contenant :
+À la fin de la séance, merci de déposer une archive (ZIP ou équivalent) à [cette adresse](https://drive.google.com/drive/folders/1lfuJkouZb7\_GU7hc6E4Wxr64gZ6eAkUj?usp=sharing), au format **NOM\_prénom\_TP03**, contenant :
 
-* l'intégralité de votre dossier de travail \(le dossier masqué .git/ doit être présent\)
-* un document \(PDF, ODF, DOCX, TXT, etc.\) contenant les commandes exécutées lors de ce TP
+* l'intégralité de votre dossier de travail (le dossier masqué .git/ doit être présent)
+* un document (PDF, ODF, DOCX, TXT, etc.) contenant les commandes exécutées lors de ce TP
 
 Vous êtes libre d'ajouter à votre rapport les difficultés rencontrées.
 
@@ -36,7 +36,7 @@ Vous pouvez trouver un aperçu du graphe du dépôt à [cette adresse](https://g
 
 On merge d'abord la branche `improve-doc` dans `main`. En sachant que cette dernière n'a pas évolué depuis la création de `improve-doc`, utilisez la méthode qui vous paraît la plus adaptée. **Expliquez votre choix**.
 
-### *So far so good*
+### _So far so good_
 
 Il est très probable que vous n'ayez pas rencontré de problème jusqu'ici. Si ce n'est pas le cas, alors je vous invite à me faire signe 🙂
 
@@ -79,15 +79,15 @@ The copy of the patch that failed is found in: .git/rebase-apply/patch
 
 Résolvez le problème en respectant le contenu d'origine du commit en cours d'application :
 
-- Conservez le nouveau titre de la page
-- Conservez le nouveau texte du paragraphe
-- Veillez à ce que le texte puisse s'afficher en bleu
-- Le fichier CSS doit être inclus dans la page HTML
+* Conservez le nouveau titre de la page
+* Conservez le nouveau texte du paragraphe
+* Veillez à ce que le texte puisse s'afficher en bleu
+* Le fichier CSS doit être inclus dans la page HTML
 
 Validez puis passez à la suite. Lorsqu'un autre conflit survient, veillez à :
 
-- Conservez le nouveau texte du paragraphe
-- Veillez à ce que le texte puisse s'afficher en bleu et que la classe `text` soit bien appliquée
+* Conservez le nouveau texte du paragraphe
+* Veillez à ce que le texte puisse s'afficher en bleu et que la classe `text` soit bien appliquée
 
 Validez et passez à la suite. Un nouveau conflit se produit lors de l'application du commit `feat(index): rename page title`. Cette fois, on constate que le conflit se produit sur le titre de la page HTML. Or, celui-ci a déjà été modifié sur une autre branche, et ce commit n'a plus de raison d'être. Ne l'appliquez pas et terminez le rebase.
 
@@ -97,7 +97,7 @@ Enfin, mergez la branche `ajout-styles` dans `main`.
 
 Vérifiez les points suivants :
 
-- [ ] Le fichier index.html correspond à :
+* [ ] Le fichier index.html correspond à :
 
 ```html
 <!DOCTYPE html>
@@ -113,7 +113,7 @@ Vérifiez les points suivants :
 </html>
 ```
 
-- [ ] La commande `git log --graph --oneline` donne le résultat suivant (les identifiants seront différents) :
+* [ ] La commande `git log --graph --oneline` donne le résultat suivant (les identifiants seront différents) :
 
 ```
 * cd32090 (HEAD -> main, ajout-styles) feat(index): add text class to uniformize text displaying
@@ -141,17 +141,18 @@ git switch main
 
 Mergez la branche `improve-doc` dans `main`.
 
-Placez-vous sur la branche `modification-textes`,  puis utilisez le mode interactif pour rebaser cette branche sur `main`. Inversez l'ordre des commits (indiquez précisément ce que vous avez fait pour). Enfin, mergez dans `main`.
+Placez-vous sur la branche `modification-textes`, puis utilisez le mode interactif pour rebaser cette branche sur `main`. Inversez l'ordre des commits (indiquez précisément ce que vous avez fait pour). Enfin, mergez dans `main`.
 
 Utilisez le rebase interactif pour rebaser `ajout-styles` sur `main`. Vous veillerez à :
-- ne pas appliquer le commit `feat(index): rename page title` provenant de cette branche
-- fusionner les commits `feat(index): add some colors` et `feat(index): add text class to uniformize text displaying`.
+
+* ne pas appliquer le commit `feat(index): rename page title` provenant de cette branche
+* fusionner les commits `feat(index): add some colors` et `feat(index): add text class to uniformize text displaying`.
 
 Enfin, mergez le tout dans `main`.
 
 ### Checklist
 
-- [ ] La commande `git log --graph --oneline` donne le résultat suivant :
+* [ ] La commande `git log --graph --oneline` donne le résultat suivant :
 
 ```
 * b3166ef (HEAD -> main, ajout-styles) feat(index): add some styles
