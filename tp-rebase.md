@@ -155,7 +155,7 @@ Enfin, mergez le tout dans `main`.
 * [ ] La commande `git log --graph --oneline` donne le résultat suivant :
 
 ```
-* b3166ef (HEAD -> main, ajout-styles) feat(index): add some styles
+* b3166ef (HEAD -> main, ajout-styles) feat(index): add some colors
 * 211cd8a (modification-textes) feat(index): modify paragraph content
 * 434ee5c feat(index): rename page title
 * cba676c (origin/improve-doc, improve-doc) docs: add working instructions
