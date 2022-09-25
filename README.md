@@ -8,10 +8,10 @@ description: Séance 1 - 27/09/2021
 
 Vous aurez besoin pour ce TP de [git et git bash](https://gitforwindows.org/).
 
-À la fin de la séance, merci de déposer une archive \(ZIP ou équivalent\) à [cette adresse](https://drive.google.com/drive/folders/1Lye4CJje6IBkL5yYrlCLS3KILL1MhJfl?usp=sharing), au format **NOM\_prénom\_TP01**, contenant :
+À la fin de la séance, merci de déposer une archive (ZIP ou équivalent) à [cette adresse](https://cnam-my.sharepoint.com/:f:/g/personal/florent\_nuttens\_lecnam\_net/EunozwiJPz1LhOH6\_lRVJrEBv-f5\_p2-fpXv24t7A\_xm1Q?e=eDgpom), au format **NOM\_prénom\_TP01**, contenant :
 
-* l'intégralité de votre dossier de travail \(le dossier masqué .git/ doit être présent\)
-* un document \(PDF, ODF, DOCX, TXT, etc.\) contenant les commandes exécutées lors de ce TP
+* l'intégralité de votre dossier de travail (le dossier masqué .git/ doit être présent)
+* un document (PDF, ODF, DOCX, TXT, etc.) contenant les commandes exécutées lors de ce TP
 
 Vous êtes libre d'ajouter à votre rapport les difficultés rencontrées.
 
@@ -37,7 +37,7 @@ Créez un dossier pour accueillir votre projet. Placez-y un fichier `index.html`
 
 Initialisez un dépôt git dans le dossier. Vous devez obtenir un message similaire à ceci :
 
-```text
+```
 Initialized empty Git repository in C:/repositories/mon-site/.git/
 ```
 
@@ -49,7 +49,7 @@ Si vous avez déjà configuré votre identité de manière globale, alors vous n
 
 Affichez l'état du dépôt. Le résultat doit être similaire à ceci :
 
-```text
+```
 On branch master
 
 No commits yet
@@ -63,7 +63,7 @@ nothing added to commit but untracked files present (use "git add" to track)
 
 Ajoutez le fichier `index.html` à l'index git. Consultez à nouveau l'état du dépôt. Le résultat doit être similaire à ceci :
 
-```text
+```
 On branch master
 
 No commits yet
@@ -79,7 +79,7 @@ Enregistrez un nouveau commit à partir des modifications présentes dans l'inde
 
 Le résultat suivant devrait s'afficher :
 
-```text
+```
 [master (root-commit) b063607] feat: ajoute le fichier index.html
  1 file changed, 13 insertions(+)
  create mode 100644 index.html
@@ -89,9 +89,8 @@ Le résultat suivant devrait s'afficher :
 
 Répondez aux questions suivantes dans votre rapport :
 
-1. Deux commits peuvent-ils avoir le même identifiant \(hash\) ? Si oui, dans quel cas ?
+1. Deux commits peuvent-ils avoir le même identifiant (hash) ? Si oui, dans quel cas ?
 2. Peut-on ajouter en une seule commande tous les fichiers du répertoire de travail à l'index ? Si oui, comment ?
 3. Peut-on ajouter un fichier à l'index si celui-ci n'est pas dans le répertoire de travail ? Si oui, comment ?
 4. Pensez-vous que certaines entreprises n'ont pas besoin d'utiliser de VCS ? Justifiez votre réponse en donnant quelques exemples. _Ce n'est pas une question piège, la réponse "oui" est admissible tant qu'elle est justifiée_.
 5. Une fois un fichier ajouté à l'index, est-il possible de l'en retirer ? Si oui, par quel moyen ?
-
