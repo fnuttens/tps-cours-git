@@ -1,5 +1,5 @@
 ---
-description: Séance 5 - 21/11/2022
+description: Séance 5 - 22/11/2021
 ---
 
 # TP - CI
@@ -10,8 +10,8 @@ Vous aurez besoin pour ce TP d'un compte [GitLab](https://gitlab.com/).
 
 À la fin de cette séance, veillez à ce que :
 
-* votre dépôt git est accessible publiquement
-* je sois ajouté comme _maintainer_ à votre projet
+- votre dépôt git est accessible publiquement
+- je sois ajouté comme *maintainer* à votre projet
 
 Vous êtes libre d'ajouter un rapport (fichier versionné ou [wiki](https://docs.gitlab.com/ee/user/project/wiki/)) avec les difficultés rencontrées.
 

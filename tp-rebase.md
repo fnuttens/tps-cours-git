@@ -1,14 +1,14 @@
 ---
-description: Séance 3 - 24/10/2022
+description: Séance 3 - 25/10/2021
 ---
 
 # TP - Rebase
 
 ## Mise en place et instructions
 
-Vous aurez besoin pour ce TP de [git et git bash](https://gitforwindows.org/).
+Vous aurez besoin pour ce TP de [git et git bash](https://gitforwindows.org).
 
-À la fin de la séance, merci de déposer une archive (ZIP ou équivalent) à [cette adresse](https://cnam-my.sharepoint.com/:f:/g/personal/florent\_nuttens\_lecnam\_net/ElPlZRTMS-5JsXaMHu5hUZYBdlqyAsbFoBd2YaX\_AtCoyA?e=OhINAi), au format **NOM\_prénom\_TP03**, contenant :
+À la fin de la séance, merci de déposer une archive (ZIP ou équivalent) à [cette adresse](https://drive.google.com/drive/folders/1lfuJkouZb7\_GU7hc6E4Wxr64gZ6eAkUj?usp=sharing), au format **NOM\_prénom\_TP03**, contenant :
 
 * l'intégralité de votre dossier de travail (le dossier masqué .git/ doit être présent)
 * un document (PDF, ODF, DOCX, TXT, etc.) contenant les commandes exécutées lors de ce TP

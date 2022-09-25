@@ -1,5 +1,5 @@
 ---
-description: Séance 2 - 10/10/2022
+description: Séance 2 - 11/10/2021
 ---
 
 # TP - Les branches
@@ -8,10 +8,10 @@ description: Séance 2 - 10/10/2022
 
 Vous aurez besoin pour ce TP de [git et git bash](https://gitforwindows.org/).
 
-À la fin de la séance, merci de déposer une archive (ZIP ou équivalent) à [cette adresse](https://cnam-my.sharepoint.com/:f:/g/personal/florent\_nuttens\_lecnam\_net/Evn3EStRbyBDo9w5i9kZ75oBJE8jFl123EGm9KGyNuEAdA?e=O6FlfX), au format **NOM\_prénom\_TP02**, contenant :
+À la fin de la séance, merci de déposer une archive \(ZIP ou équivalent\) à [cette adresse](https://drive.google.com/drive/folders/1T2ixIF9ksS3asvpratUEKxPZIB025Ltj?usp=sharing), au format **NOM\_prénom\_TP02**, contenant :
 
-* l'intégralité de votre dossier de travail (le dossier masqué .git/ doit être présent)
-* un document (PDF, ODF, DOCX, TXT, etc.) contenant les commandes exécutées lors de ce TP
+* l'intégralité de votre dossier de travail \(le dossier masqué .git/ doit être présent\)
+* un document \(PDF, ODF, DOCX, TXT, etc.\) contenant les commandes exécutées lors de ce TP
 
 Vous êtes libre d'ajouter à votre rapport les difficultés rencontrées.
 
@@ -23,12 +23,12 @@ Reprenez le projet du précédent TP.
 Vous pouvez copier votre répertoire de travail pour être en mesure de recommencer si besoin.
 {% endhint %}
 
-### Créer des _feature branches_
+### Créer des *feature branches*
 
 On souhaite apporter deux évolutions à notre projet. Pour ce faire, on utilisera les deux branches suivantes :
 
-* `ajout-styles`
-* `modification-textes`
+- `ajout-styles`
+- `modification-textes`
 
 Créez la première branche puis faites-en votre branche courante. Ajoutez ensuite un fichier `styles.css` avec le contenu suivant :
 
