@@ -1,5 +1,5 @@
 ---
-description: Séance 1 - 27/09/2021
+description: Séance 1 - 26/09/2022
 ---
 
 # TP - Les commandes de base
