@@ -1,5 +1,5 @@
 ---
-description: Séance 2 - 11/10/2021
+description: Séance 2 - 10/10/2022
 ---
 
 # TP - Les branches
@@ -8,10 +8,10 @@ description: Séance 2 - 11/10/2021
 
 Vous aurez besoin pour ce TP de [git et git bash](https://gitforwindows.org/).
 
-À la fin de la séance, merci de déposer une archive \(ZIP ou équivalent\) à [cette adresse](https://drive.google.com/drive/folders/1T2ixIF9ksS3asvpratUEKxPZIB025Ltj?usp=sharing), au format **NOM\_prénom\_TP02**, contenant :
+À la fin de la séance, merci de déposer une archive (ZIP ou équivalent) à [cette adresse](https://cnam-my.sharepoint.com/:f:/g/personal/florent\_nuttens\_lecnam\_net/Evn3EStRbyBDo9w5i9kZ75oBJE8jFl123EGm9KGyNuEAdA?e=O6FlfX), au format **NOM\_prénom\_TP02**, contenant :
 
-* l'intégralité de votre dossier de travail \(le dossier masqué .git/ doit être présent\)
-* un document \(PDF, ODF, DOCX, TXT, etc.\) contenant les commandes exécutées lors de ce TP
+* l'intégralité de votre dossier de travail (le dossier masqué .git/ doit être présent)
+* un document (PDF, ODF, DOCX, TXT, etc.) contenant les commandes exécutées lors de ce TP
 
 Vous êtes libre d'ajouter à votre rapport les difficultés rencontrées.
 
@@ -23,12 +23,12 @@ Reprenez le projet du précédent TP.
 Vous pouvez copier votre répertoire de travail pour être en mesure de recommencer si besoin.
 {% endhint %}
 
-### Créer des *feature branches*
+### Créer des _feature branches_
 
 On souhaite apporter deux évolutions à notre projet. Pour ce faire, on utilisera les deux branches suivantes :
 
-- `ajout-styles`
-- `modification-textes`
+* `ajout-styles`
+* `modification-textes`
 
 Créez la première branche puis faites-en votre branche courante. Ajoutez ensuite un fichier `styles.css` avec le contenu suivant :
 
@@ -188,31 +188,31 @@ Résolvez le conflit de manière intelligente : on souhaite conserver le nouveau
 ```
 *   commit f8f53f4d023fed26acf6dae999beea433448f4da (HEAD -> master)
 |\  Merge: 43330ba db77cf5
-| | Author: Florent Nuttens <fnuttens@dabao.fr>
+| | Author: Florent Nuttens <florent.nuttens@lecnam.net>
 | | Date:   Sun Sep 23 23:47:46 2018 +0200
 | |
 | |     Commit de fusion de la branche ajout-styles dans master
 | |
 | * commit db77cf58b91adcaf6e175615b3b8afb4506cda9e (ajout-styles)
-| | Author: Florent Nuttens <fnuttens@dabao.fr>
+| | Author: Florent Nuttens <florent.nuttens@lecnam.net>
 | | Date:   Sun Sep 23 23:27:39 2018 +0200
 | |
 | |     Ajout des styles
 | |
 * | commit 43330ba53e6859da860cd9ecb932c5d39bdd84c5 (modification-textes)
-| | Author: Florent Nuttens <fnuttens@dabao.fr>
+| | Author: Florent Nuttens <florent.nuttens@lecnam.net>
 | | Date:   Sun Sep 23 23:29:39 2018 +0200
 | |
 | |     Modification du titre de la page
 | |
 * | commit ce5bbaa05924fc7371b93e31740a388fb9ff38ee
-|/  Author: Florent Nuttens <fnuttens@dabao.fr>
+|/  Author: Florent Nuttens <florent.nuttens@lecnam.net>
 |   Date:   Sun Sep 23 23:29:17 2018 +0200
 |
 |       Modification du paragraphe
 |
 * commit 8ce658a80f605415a3104614874d8497132a6ec5
-  Author: Florent Nuttens <fnuttens@dabao.fr>
+  Author: Florent Nuttens <florent.nuttens@lecnam.net>
   Date:   Sun Sep 23 11:39:51 2018 +0200
 
       Ajout du fichier index.html
