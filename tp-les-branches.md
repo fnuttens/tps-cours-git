@@ -33,8 +33,8 @@ On souhaite apporter deux évolutions à notre projet. Pour ce faire, on utilise
 Créez la première branche puis faites-en votre branche courante. Ajoutez ensuite un fichier `styles.css` avec le contenu suivant :
 
 ```css
-p .blue {
-	color: "blue"
+p.blue {
+	color: blue;
 }
 ```
 
@@ -46,6 +46,7 @@ Dans le fichier `index.html`, affectez la classe `blue` au paragraphe. Votre fic
 
 <head>
 	<title>Welcome</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
