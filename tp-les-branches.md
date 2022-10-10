@@ -77,6 +77,7 @@ Votre fichier `index.html` doit ressembler à ceci :
 
 <head>
 	<title>Welcome</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -99,6 +100,7 @@ Le fichier se présente maintenant comme ceci :
 
 <head>
 	<title>TP Git</title>
+	<link rel="stylesheet" href="styles.css">
 </head>
 
 <body>
@@ -166,6 +168,7 @@ Le conflit se présente comme suit :
 <html>
 <head>
     <title>TP Git</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <h1>This is a Heading</h1>
