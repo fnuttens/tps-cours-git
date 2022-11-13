@@ -5,3 +5,4 @@
 * [TP - Rebase](tp-rebase.md)
 * [TP - GitLab](tp-gitlab.md)
 * [TP - CI](tp-ci.md)
+* [TP - Commandes avancées](tp-commandes-avancees.md)
