@@ -10,7 +10,7 @@ Vous aurez besoin pour ce TP d'un compte [GitLab](https://gitlab.com/).
 
 À la fin de cette séance, veillez à ce que :
 
-* votre dépôt git est accessible publiquement
+* votre dépôt git fasse partie du groupe [fip1a2022](https://gitlab.com/fip1a2022) et soit accessible publiquement
 * je sois ajouté comme _maintainer_ à votre projet
 
 Vous êtes libre d'ajouter un rapport (fichier versionné ou [wiki](https://docs.gitlab.com/ee/user/project/wiki/)) avec les difficultés rencontrées.
