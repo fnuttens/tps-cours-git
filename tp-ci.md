@@ -17,7 +17,7 @@ Vous êtes libre d'ajouter un rapport (fichier versionné ou [wiki](https://docs
 
 ## Configuration de la CI et création des jobs
 
-Forkez le projet [tp-ci](https://gitlab.com/fip1a2022/tp-ci).
+Demandez l'accès au groupe [fip1a2022](https://gitlab.com/fip1a2022). Forkez ensuite le projet [tp-ci](https://gitlab.com/fip1a2022/tp-ci).
 
 Il s'agit d'un projet [Node.js](https://nodejs.org/). Vous veillerez donc à utiliser la bonne image docker pour exécuter votre CI.
 
