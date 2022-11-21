@@ -17,7 +17,7 @@ Vous êtes libre d'ajouter un rapport (fichier versionné ou [wiki](https://docs
 
 ## Configuration de la CI et création des jobs
 
-Demandez l'accès au groupe [fip1a2022](https://gitlab.com/fip1a2022). Forkez ensuite le projet [tp-ci](https://gitlab.com/fip1a2022/tp-ci).
+Demandez l'accès au groupe [fip1a2022](https://gitlab.com/fip1a2022). Forkez ensuite le projet [tp-ci](https://gitlab.com/fip1a2022/tp-ci) et placez-vous sur une nouvelle branche créée à partir de `main` (ex: `develop`).
 
 Il s'agit d'un projet [Node.js](https://nodejs.org/). Vous veillerez donc à utiliser la bonne image docker pour exécuter votre CI.
 
@@ -27,6 +27,7 @@ Faites le nécessaire pour exécuter les commandes suivantes dans la pipeline de
 2. lancement des tests (`npm run test`)
 3. lancement de l'analyse syntaxique du code (`npm run lint`)
 4. affichage d'un message dans la console (`echo...`)
+5. commande qui symbolise la livraison de l'application (ex: `npm publish...` mais un simple `echo` peut suffire)
 
 ## Stages
 
@@ -35,3 +36,4 @@ Organisez vos jobs en les regroupant en trois catégories :
 1. setup : job 1
 2. test : jobs 2 + 3
 3. end : job 4
+4. deploy : job 5 ⚠️ uniquement depuis la branche `main`
