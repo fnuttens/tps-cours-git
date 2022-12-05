@@ -4,7 +4,7 @@ description: Séance 6 - 05/12/2022
 
 # TP - Commandes avancées
 
-À la fin de la séance, merci de déposer l'archive de votre rapport à [cette adresse](https://cnam-my.sharepoint.com/:f:/g/personal/florent\_nuttens\_lecnam\_net/EjwtmE1eCzZIraUfqprB0rcBY95SaOaCxLFgchrqs5F1rg), au format **NOM\_prénom\_TP06**.
+À la fin de la séance, merci de déposer l'archive de votre rapport à [cette adresse](https://cnam-my.sharepoint.com/:f:/g/personal/florent\_nuttens\_lecnam\_net/EjwtmE1eCzZIraUfqprB0rcBY95SaOaCxLFgchrqs5F1rg?e=YZTkFA), au format **NOM\_prénom\_TP06**.
 
 ## Indexation avancée
 
